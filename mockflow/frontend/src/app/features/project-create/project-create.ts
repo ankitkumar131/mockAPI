@@ -102,7 +102,8 @@ export class ProjectCreate {
     });
   }
 
-  private parseJson(str: string): Record<string, any> {
+  private parseJson(str: string): any {
+    if (!str || !str.trim()) return {};
     try {
       return JSON.parse(str);
     } catch {

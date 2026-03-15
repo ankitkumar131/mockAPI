@@ -2,6 +2,7 @@ import re
 from datetime import datetime, timezone
 
 from bson import ObjectId
+from pymongo import ReturnDocument
 
 from app.core.database import get_db
 from app.models.schemas import ProjectCreate, ProjectUpdate, ProjectResponse
@@ -68,7 +69,7 @@ async def update_project(slug: str, data: ProjectUpdate) -> ProjectResponse | No
     result = await db.mock_projects.find_one_and_update(
         {"slug": slug},
         {"$set": update_fields},
-        return_document=True,
+        return_document=ReturnDocument.AFTER,
     )
     return _doc_to_response(result) if result else None
 

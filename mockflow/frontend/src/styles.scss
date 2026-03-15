@@ -35,4 +35,14 @@ body {
   margin: 0;
   height: 100%;
 }
-/* You can add global styles to this file, and also import other style files */
+
+/* Global method color chips — used across multiple components */
+.method-get { background: #4caf50 !important; color: white !important; }
+.method-post { background: #ff9800 !important; color: white !important; }
+.method-put { background: #2196f3 !important; color: white !important; }
+.method-patch { background: #9c27b0 !important; color: white !important; }
+.method-delete { background: #f44336 !important; color: white !important; }
+
+.status-success { background: #4caf50 !important; color: white !important; }
+.status-warn { background: #ff9800 !important; color: white !important; }
+.status-error { background: #f44336 !important; color: white !important; }
