@@ -1,0 +1,92 @@
+@if (loading()) {
+  <div class="loading-container">
+    <mat-spinner diameter="48"></mat-spinner>
+  </div>
+} @else if (project()) {
+  <div class="playground">
+    <div class="playground-header">
+      <h1>Playground — {{ project()!.name }}</h1>
+      <a mat-button [routerLink]="['/projects', project()!.slug]">
+        <mat-icon>arrow_back</mat-icon> Back to Project
+      </a>
+    </div>
+
+    <div class="playground-layout">
+      <!-- Endpoint picker -->
+      <mat-card class="endpoint-picker">
+        <mat-card-header>
+          <mat-card-title>Endpoints</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          @for (ep of project()!.endpoints; track $index) {
+            <button
+              mat-stroked-button
+              class="endpoint-btn"
+              [class.selected]="selectedEndpoint() === ep"
+              (click)="selectEndpoint(ep)"
+            >
+              <mat-chip [class]="'method-' + ep.method.toLowerCase()">{{ ep.method }}</mat-chip>
+              <span>{{ ep.path }}</span>
+            </button>
+          }
+          @if (project()!.endpoints.length === 0) {
+            <p class="no-endpoints">No endpoints defined.</p>
+          }
+        </mat-card-content>
+      </mat-card>
+
+      <!-- Request/Response -->
+      <div class="request-response">
+        @if (selectedEndpoint()) {
+          <mat-card class="request-card">
+            <mat-card-header>
+              <mat-card-title>Request</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="url-bar">
+                <mat-chip [class]="'method-' + selectedEndpoint()!.method.toLowerCase()">
+                  {{ selectedEndpoint()!.method }}
+                </mat-chip>
+                <code class="url-display">{{ getFullUrl() }}</code>
+                <button mat-flat-button color="primary" (click)="sendRequest()" [disabled]="testing()">
+                  @if (testing()) {
+                    <mat-spinner diameter="20"></mat-spinner>
+                  } @else {
+                    <ng-container><mat-icon>send</mat-icon> Send</ng-container>
+                  }
+                </button>
+              </div>
+
+              @if (selectedEndpoint()!.method !== 'GET' && selectedEndpoint()!.method !== 'DELETE') {
+                <mat-form-field appearance="outline" class="full-width">
+                  <mat-label>Request Body (JSON)</mat-label>
+                  <textarea matInput [(ngModel)]="requestBody" rows="4" class="json-input"></textarea>
+                </mat-form-field>
+              }
+            </mat-card-content>
+          </mat-card>
+
+          @if (responseStatus() !== null) {
+            <mat-card class="response-card">
+              <mat-card-header>
+                <mat-card-title>Response</mat-card-title>
+                <span class="spacer"></span>
+                <mat-chip [class]="getStatusClass()">{{ responseStatus() }}</mat-chip>
+                <span class="response-time">{{ responseTime() }}ms</span>
+              </mat-card-header>
+              <mat-card-content>
+                <pre class="response-body">{{ responseBody() }}</pre>
+              </mat-card-content>
+            </mat-card>
+          }
+        } @else {
+          <mat-card>
+            <mat-card-content>
+              <p>Select an endpoint to test.</p>
+            </mat-card-content>
+          </mat-card>
+        }
+      </div>
+    </div>
+  </div>
+}

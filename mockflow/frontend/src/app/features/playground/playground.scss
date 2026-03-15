@@ -1,0 +1,110 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+}
+
+.playground {
+  .playground-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    h1 { margin: 0; font-size: 1.5rem; }
+  }
+
+  .playground-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 16px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .endpoint-picker {
+    .endpoint-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      justify-content: flex-start;
+      margin-bottom: 4px;
+      text-transform: none;
+
+      &.selected {
+        background: rgba(63, 81, 181, 0.1);
+        border-color: #3f51b5;
+      }
+    }
+
+    .no-endpoints {
+      color: #999;
+      text-align: center;
+      font-style: italic;
+    }
+  }
+
+  .url-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+
+    .url-display {
+      flex: 1;
+      background: #f5f5f5;
+      padding: 8px 12px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+  .full-width { width: 100%; }
+
+  .json-input {
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.9rem;
+  }
+
+  .response-card {
+    margin-top: 16px;
+
+    mat-card-header {
+      display: flex;
+      align-items: center;
+      .spacer { flex: 1; }
+      .response-time {
+        margin-left: 8px;
+        color: #666;
+        font-size: 0.85rem;
+      }
+    }
+
+    .response-body {
+      background: #1e1e1e;
+      color: #d4d4d4;
+      padding: 16px;
+      border-radius: 4px;
+      overflow-x: auto;
+      font-family: 'Consolas', 'Monaco', monospace;
+      font-size: 0.85rem;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+  }
+
+  .method-get { background: #4caf50 !important; color: white !important; }
+  .method-post { background: #ff9800 !important; color: white !important; }
+  .method-put { background: #2196f3 !important; color: white !important; }
+  .method-patch { background: #9c27b0 !important; color: white !important; }
+  .method-delete { background: #f44336 !important; color: white !important; }
+
+  .status-success { background: #4caf50 !important; color: white !important; }
+  .status-warn { background: #ff9800 !important; color: white !important; }
+  .status-error { background: #f44336 !important; color: white !important; }
+}

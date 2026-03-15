@@ -1,0 +1,121 @@
+@if (loading()) {
+  <div class="loading-container">
+    <mat-spinner diameter="48"></mat-spinner>
+  </div>
+} @else if (project()) {
+  <div class="project-detail">
+    <div class="detail-header">
+      <h1>{{ project()!.name }}</h1>
+      <div class="header-actions">
+        <button mat-stroked-button (click)="copyUrl()">
+          <mat-icon>content_copy</mat-icon>
+          Copy Mock URL
+        </button>
+        <a mat-stroked-button [routerLink]="['/projects', project()!.slug, 'playground']">
+          <mat-icon>play_arrow</mat-icon>
+          Playground
+        </a>
+        <a mat-stroked-button [routerLink]="['/projects', project()!.slug, 'analytics']">
+          <mat-icon>bar_chart</mat-icon>
+          Analytics
+        </a>
+      </div>
+    </div>
+
+    <mat-card class="url-card">
+      <mat-card-content>
+        <span class="label">Base URL:</span>
+        <code>{{ getMockUrl() }}</code>
+      </mat-card-content>
+    </mat-card>
+
+    <form [formGroup]="form" (ngSubmit)="save()">
+      <mat-card>
+        <mat-card-content>
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Project Name</mat-label>
+            <input matInput formControlName="name" />
+          </mat-form-field>
+        </mat-card-content>
+      </mat-card>
+
+      <div class="endpoints-section">
+        <div class="section-header">
+          <h2>Endpoints</h2>
+          <button mat-stroked-button type="button" (click)="addEndpoint()">
+            <mat-icon>add</mat-icon>
+            Add Endpoint
+          </button>
+        </div>
+
+        <div formArrayName="endpoints">
+          @for (endpoint of endpoints.controls; track $index; let i = $index) {
+            <mat-card class="endpoint-card" [formGroupName]="i">
+              <mat-card-header>
+                <mat-card-title>
+                  <mat-chip>{{ endpoint.get('method')?.value }}</mat-chip>
+                  {{ endpoint.get('path')?.value }}
+                </mat-card-title>
+                <span class="spacer"></span>
+                <button mat-icon-button color="warn" type="button" (click)="removeEndpoint(i)">
+                  <mat-icon>delete</mat-icon>
+                </button>
+              </mat-card-header>
+
+              <mat-card-content>
+                <div class="endpoint-row">
+                  <mat-form-field appearance="outline" class="method-field">
+                    <mat-label>Method</mat-label>
+                    <mat-select formControlName="method">
+                      @for (method of methods; track method) {
+                        <mat-option [value]="method">{{ method }}</mat-option>
+                      }
+                    </mat-select>
+                  </mat-form-field>
+
+                  <mat-form-field appearance="outline" class="path-field">
+                    <mat-label>Path</mat-label>
+                    <input matInput formControlName="path" />
+                  </mat-form-field>
+
+                  <mat-form-field appearance="outline" class="status-field">
+                    <mat-label>Status</mat-label>
+                    <input matInput type="number" formControlName="status_code" />
+                  </mat-form-field>
+                </div>
+
+                <mat-form-field appearance="outline" class="full-width">
+                  <mat-label>Response Body (JSON)</mat-label>
+                  <textarea matInput formControlName="response_body" rows="6" class="json-input"></textarea>
+                </mat-form-field>
+
+                <div class="delay-row">
+                  <label>Delay: {{ endpoint.get('delay_ms')?.value || 0 }}ms</label>
+                  <mat-slider min="0" max="5000" step="100" discrete>
+                    <input matSliderThumb formControlName="delay_ms" />
+                  </mat-slider>
+                </div>
+
+                <mat-checkbox formControlName="use_faker">Use Faker</mat-checkbox>
+
+                @if (endpoint.get('use_faker')?.value) {
+                  <mat-form-field appearance="outline" class="full-width">
+                    <mat-label>Faker Template (JSON)</mat-label>
+                    <textarea matInput formControlName="faker_template" rows="4"></textarea>
+                  </mat-form-field>
+                }
+              </mat-card-content>
+            </mat-card>
+          }
+        </div>
+      </div>
+
+      <div class="actions">
+        <a mat-button routerLink="/dashboard">Back</a>
+        <button mat-flat-button color="primary" type="submit" [disabled]="form.invalid || saving()">
+          @if (saving()) { Saving... } @else { Save Changes }
+        </button>
+      </div>
+    </form>
+  </div>
+}

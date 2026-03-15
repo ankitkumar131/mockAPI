@@ -1,0 +1,93 @@
+.project-create {
+  h1 {
+    margin-bottom: 24px;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .endpoints-section {
+    margin-top: 24px;
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+
+      h2 {
+        margin: 0;
+      }
+    }
+  }
+
+  .endpoint-card {
+    margin-bottom: 16px;
+
+    mat-card-header {
+      display: flex;
+      align-items: center;
+
+      .spacer {
+        flex: 1;
+      }
+    }
+  }
+
+  .endpoint-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+
+    .method-field {
+      flex: 0 0 140px;
+    }
+
+    .path-field {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .status-field {
+      flex: 0 0 120px;
+    }
+  }
+
+  .json-input {
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.9rem;
+  }
+
+  .delay-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 8px 0;
+
+    label {
+      min-width: 120px;
+    }
+
+    mat-slider {
+      flex: 1;
+    }
+  }
+
+  .faker-field {
+    margin-top: 12px;
+  }
+
+  .no-endpoints {
+    text-align: center;
+    color: #999;
+    padding: 24px;
+    font-style: italic;
+  }
+
+  .actions {
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

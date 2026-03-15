@@ -1,0 +1,98 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+}
+
+.project-detail {
+  .detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+
+    h1 { margin: 0; }
+
+    .header-actions {
+      display: flex;
+      gap: 8px;
+    }
+  }
+
+  .url-card {
+    margin-bottom: 24px;
+
+    mat-card-content {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .label {
+      font-weight: 500;
+      color: #666;
+    }
+
+    code {
+      background: #f5f5f5;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+  }
+
+  .full-width { width: 100%; }
+
+  .endpoints-section {
+    margin-top: 24px;
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      h2 { margin: 0; }
+    }
+  }
+
+  .endpoint-card {
+    margin-bottom: 16px;
+    mat-card-header {
+      display: flex;
+      align-items: center;
+      .spacer { flex: 1; }
+    }
+  }
+
+  .endpoint-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    .method-field { flex: 0 0 140px; }
+    .path-field { flex: 1; min-width: 200px; }
+    .status-field { flex: 0 0 120px; }
+  }
+
+  .json-input {
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.9rem;
+  }
+
+  .delay-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 8px 0;
+    label { min-width: 120px; }
+    mat-slider { flex: 1; }
+  }
+
+  .actions {
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+}

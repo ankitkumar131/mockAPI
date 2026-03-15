@@ -1,0 +1,54 @@
+@if (loading()) {
+  <div class="loading-container">
+    <mat-spinner diameter="48"></mat-spinner>
+  </div>
+} @else if (project()) {
+  <div class="analytics">
+    <div class="analytics-header">
+      <h1>Analytics — {{ project()!.name }}</h1>
+      <a mat-button [routerLink]="['/projects', project()!.slug]">
+        <mat-icon>arrow_back</mat-icon> Back to Project
+      </a>
+    </div>
+
+    <div class="stats-cards">
+      <mat-card class="stat-card">
+        <mat-card-content>
+          <div class="stat-value">{{ project()!.endpoints.length }}</div>
+          <div class="stat-label">Endpoints</div>
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="stat-card">
+        <mat-card-content>
+          <div class="stat-value">{{ totalHits() }}</div>
+          <div class="stat-label">Total Hits</div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Endpoint Hits</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        @for (ep of sortedEndpoints(); track $index) {
+          <div class="endpoint-row">
+            <mat-chip [class]="'method-' + ep.method.toLowerCase()">{{ ep.method }}</mat-chip>
+            <span class="endpoint-path">{{ ep.path }}</span>
+            <span class="spacer"></span>
+            <div class="hit-bar-container">
+              <div
+                class="hit-bar"
+                [style.width.%]="totalHits() ? ((ep.hit_count || 0) / totalHits()) * 100 : 0"
+              ></div>
+            </div>
+            <span class="hit-count">{{ ep.hit_count || 0 }}</span>
+          </div>
+        }
+        @if (project()!.endpoints.length === 0) {
+          <p class="no-data">No endpoints configured.</p>
+        }
+      </mat-card-content>
+    </mat-card>
+  </div>
+}
