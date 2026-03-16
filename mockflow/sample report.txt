@@ -1,0 +1,224 @@
+PARVATIBAI GENBA MOZE COLLEGE OF ENGINEERING 
+Wagholi, Pune 
+Department of Master of Computer Application 
+Academic Year 2025-26 
+Synopsis for Internship Project Report 
+ 
+Title of the Project: Quality Assurance and Frontend Development for ThermoFisher Application at 
+Scalar Techhub 
+ 
+Name of the Participant/s: 1. Mr. Ankit Kumar (MCA103) 
+______________________________________________________________________________ 
+1. Study of Existing System 
+The ThermoFisher project is a large-scale enterprise web application developed and maintained by a 
+professional software team at Scalar Techhub, Pune. The application serves the needs of ThermoFisher 
+Scientific, a global leader in scientific instrumentation and laboratory solutions. The development and 
+testing of this application follow Agile methodology with sprint-based delivery cycles. 
+The existing system involves a frontend application built using Angular and a backend powered by 
+RESTful API services. The quality assurance process includes both manual testing and automation 
+testing. The team uses Jira for project management and task tracking, Figma for UI design specifications, 
+and Protractor as the primary automation testing framework. 
+The development workflow follows a structured sprint cycle of approximately 10 days, where 
+development stories and QA stories are created, assigned, and tracked through Jira. Features are 
+implemented by developers, deployed to the development (DEV) environment, verified by the QA team, 
+and then promoted to the staging environment before release. 
+Design specifications are maintained using Figma, which provides detailed UI layouts, component 
+specifications, and interaction behaviors. Requirements are documented through Conditions of 
+Acceptance (COA) and Functional Design Agreements (FDA) attached to Jira tickets. 
+______________________________________________________________________________ 
+ 
+2. Limitations of Existing System 
+The existing system and workflow had several limitations that were identified during the internship 
+period: 
+• The automation testing framework used Protractor, which was becoming outdated and lacked 
+support for modern browser features and cross-browser testing. 
+• Manual testing was heavily relied upon for feature verification, making the process time-consuming 
+and repetitive. 
+• Regression testing required significant manual effort during each sprint cycle. 
+• The transition from Protractor to a modern testing framework like Playwright was necessary to 
+improve test execution speed and reliability. 
+• New team members required extensive onboarding through KT sessions to understand the project 
+architecture and workflow. 
+• Automation scripts needed restructuring during migration to maintain consistent test coverage. 
+• Coordination between development and QA teams required careful management to ensure smooth 
+feature delivery. 
+These limitations highlighted the need for framework modernization, improved automation coverage, 
+and streamlined testing processes. 
+______________________________________________________________________________ 
+3. Work Done During Internship 
+During the two-month internship at Scalar Techhub, multiple activities were carried out spanning 
+project orientation, manual testing, automation testing, frontend development, deployment 
+verification, and automation framework migration. The work was structured across weekly milestones 
+aligned with the Agile sprint cycles of the ThermoFisher project. 
+Week 1: Introduction and Project Orientation 
+During the first week, Knowledge Transfer (KT) sessions were conducted by senior developers and QA 
+engineers. These sessions covered the overall objective and functionality of the ThermoFisher 
+application, roles and responsibilities of development and QA teams, sprint-based development process, 
+structure of user stories and tasks, and communication and collaboration processes within the team. 
+The Agile development methodology was introduced, including sprint planning, story types 
+(development stories, QA stories, sub-tasks, bug reports), and the Jira dashboard for task tracking. The 
+Jira workflow stages — To Do, In Progress, QA Testing, and Completed — were learned. UI design 
+documentation using Figma was also introduced. 
+ 
+ 
+Week 2: Task Management and Test Case Creation 
+During the second week, practical work began with navigating the Jira dashboard and understanding 
+different ticket types. Test cases were created for QA stories by studying acceptance criteria and 
+ensuring coverage of all possible scenarios. Each test case included description of the feature, steps for 
+execution, expected results, and status after execution. 
+Sub-tasks were also created for development stories to divide larger features into manageable 
+components. The sprint workflow was observed, including story planning, development, QA testing, and 
+completion stages. 
+Week 3: Manual Testing Activities 
+The third week focused on active participation in the quality assurance process. QA story requirements 
+were reviewed in Jira, and developed features were verified against UI designs provided in Figma. The 
+manual testing process involved verifying layout and positioning of UI elements, correct display of 
+buttons, forms, and text fields, proper alignment and styling of components, and navigation between 
+different screens. 
+Predefined test cases were executed for QA stories. If functionality behaved as expected, test cases 
+were marked as passed. Any mismatches or issues were documented and reported in Jira. 
+Week 4: Introduction to Automation Testing 
+During the fourth week, automation testing was introduced using the Protractor framework. The 
+automation framework structure and test script organization were studied. Automation scripts followed 
+a structured format including locators (XPath) for identifying UI elements, test suites for grouping 
+related test cases, describe blocks for test scenarios, and it blocks for individual test cases. 
+Existing automation test scripts were reviewed to understand how automated tests simulate user 
+interactions such as clicking buttons, entering data, and navigating between pages. 
+Week 5: Combined Manual and Automation Testing 
+The fifth week involved performing both manual testing and automation testing for sprint features. 
+Manual testing verified functionalities against Jira requirements and Figma design specifications. 
+Automation scripts using Protractor were written to simulate user interactions and verify functionality 
+efficiently during repetitive testing scenarios. 
+Application behavior was closely monitored during test execution. Any unexpected behavior or 
+mismatches with expected output were documented and reported through Jira for resolution. 
+ 
+ 
+ 
+Week 6: Frontend Development Using Angular 
+During the sixth week, development tasks were undertaken using Angular 18. Requirements were 
+analyzed from Jira tickets including Conditions of Acceptance (COA) and Functional Design Agreements 
+(FDA). UI designs from Figma were referenced for visual layout and structure. 
+Features were implemented by creating and modifying Angular components, implementing UI layouts, 
+and integrating with backend API endpoints for data fetching and processing. Basic verification was 
+performed after implementation to ensure correct UI behavior, data flow, and design compliance. 
+Week 7: Deployment and QA Verification Process 
+The seventh week focused on the deployment and verification workflow. Completed features were 
+deployed to the development (DEV) environment, and QA assignees were notified for testing. The QA 
+team executed relevant test cases and verified functionality against acceptance criteria and design 
+specifications. 
+Upon successful QA verification, features were promoted to the staging environment for additional 
+checks before release. This process provided understanding of how development, testing, and 
+deployment activities coordinate within the software development lifecycle (SDLC). 
+Week 8: Migration from Protractor to Playwright 
+During the eighth week, automation testing scripts were migrated from Protractor to Playwright. The 
+migration was necessitated by Playwright's faster execution, better cross-browser support, and modern 
+testing capabilities compared to the aging Protractor framework. 
+The migration was carried out in organized batches. For each batch, existing Protractor scripts were 
+reviewed, test logic and scenarios were understood, automation code was rewritten in Playwright 
+format, and locators and test structures were updated. After each batch, migrated scripts were 
+executed to confirm consistent test coverage and correct functionality. 
+Final Week: Testing Review and Validation 
+During the final week, previously migrated Playwright automation scripts were reviewed and validated 
+to ensure correct functionality. Test cases were reviewed, implemented features were validated, and 
+overall testing activities were completed. This phase ensured that the migration maintained the same 
+test coverage and no functionality was missed during the framework transition. 
+______________________________________________________________________________ 
+ 
+ 
+ 
+4. Hardware & Software Requirements 
+Hardware Requirements 
+• Minimum 8GB RAM 
+• Intel i5 Processor or higher 
+• 256GB storage 
+• Internet connectivity 
+Software Requirements 
+• Frontend Framework: Angular 18 with TypeScript 
+• Automation Testing: Protractor, Playwright 
+• Manual Testing: Browser-based testing 
+• Project Management: Jira 
+• UI Design Tool: Figma 
+• Version Control: Git 
+• IDE: VS Code / IntelliJ IDEA 
+• Runtime: Node.js 
+• Operating System: Windows / Linux / macOS 
+• Browsers: Chrome, Firefox, Edge 
+______________________________________________________________________________ 
+5. Detailed Study 
+Agile Methodology and Sprint Workflow 
+The ThermoFisher project follows Agile methodology with sprint-based delivery. Each sprint lasts 
+approximately 10 days (around two weeks). Within each sprint, work items including user stories, QA 
+stories, development tasks, sub-tasks, and bug reports are created, assigned, and tracked through Jira. 
+Progress is monitored through the Jira dashboard where team members can view assigned tasks, 
+monitor sprint progress, track story completion status, and identify pending and completed work items. 
+Manual Testing Process 
+Manual testing involves verifying developed features against design specifications from Figma and 
+requirements from Jira QA stories. The process includes reviewing QA story requirements, studying 
+acceptance criteria, opening the developed feature in the application, performing test actions, observing 
+system response, and comparing results with expected outcomes. Test cases are marked as passed or 
+failed, and issues are documented and reported through Jira. 
+ 
+ 
+Automation Testing Framework 
+The project initially used Protractor for automation testing of Angular web applications. Protractor 
+provides built-in support for Angular-specific elements and synchronization. Automation scripts use 
+XPath locators for identifying UI elements, describe blocks for test suites, and it blocks for individual test 
+cases. Scripts simulate user interactions such as clicking buttons, entering data, and navigating between 
+application pages. 
+Migration to Playwright 
+The automation framework was migrated from Protractor to Playwright to leverage faster test 
+execution, better cross-browser support, and modern testing capabilities. The migration involved 
+reviewing existing Protractor scripts, understanding test logic, rewriting code in Playwright format, 
+updating locators and test structures, and verifying migrated scripts to ensure consistent test coverage. 
+Frontend Development with Angular 
+Development tasks were performed using Angular 18. Features were implemented based on 
+requirements from Jira tickets including COA and FDA documents, and UI designs from Figma. The 
+development process involved creating and modifying Angular components, implementing UI layouts 
+matching design specifications, and integrating with backend API endpoints for data operations. 
+Deployment Workflow 
+The deployment workflow follows a structured pipeline: features are developed and deployed to the 
+development (DEV) environment, QA teams verify functionality through test case execution, successfully 
+verified features are promoted to the staging environment, and final checks are performed before 
+release. This process ensures that new features are stable and meet quality standards at each stage. 
+______________________________________________________________________________ 
+6. Module Description 
+Project Management Module (Jira) 
+The project management module uses Jira to organize and track all development and testing activities. 
+Team members can create and manage user stories, QA stories, sub-tasks, and bug reports. The 
+workflow stages include To Do, In Progress, QA Testing, and Completed. Sprint planning, progress 
+tracking, and team collaboration are managed through the Jira dashboard. 
+Manual Testing Module 
+The manual testing module involves verifying developed features against design specifications and 
+functional requirements. Test cases are created based on QA story acceptance criteria covering feature 
+descriptions, execution steps, expected results, and test status. Manual verification includes layout 
+checking, UI element validation, navigation testing, and functional behavior verification. 
+Automation Testing Module 
+The automation testing module uses Protractor and Playwright frameworks to automate repetitive test 
+scenarios. Automated scripts simulate user interactions and validate application behavior against 
+expected outcomes. The module supports XPath-based element location, test suite organization, and 
+batch execution for efficient regression testing during sprint cycles. 
+Frontend Development Module 
+The frontend development module uses Angular 18 for building user interface components. 
+Development follows design specifications from Figma and requirements from Jira tickets. The module 
+involves creating Angular components, implementing responsive UI layouts, integrating with backend 
+APIs, and performing basic verification before QA handoff. 
+Deployment and Verification Module 
+The deployment module manages the promotion of features through development (DEV) and staging 
+environments. After development completion, features are deployed to DEV for QA verification. Upon 
+successful testing, features are promoted to staging for final validation before production release. 
+______________________________________________________________________________ 
+Conclusion 
+The two-month internship at Scalar Techhub provided comprehensive exposure to real-world software 
+development and quality assurance processes. Working on the ThermoFisher project, practical 
+experience was gained in Agile sprint workflow, task management using Jira, manual testing based on 
+design specifications, automation testing using Protractor and Playwright, frontend development using 
+Angular 18, and deployment and QA verification processes. 
+The internship demonstrated the practical implementation of Agile methodology, structured testing 
+processes, automation framework migration, and collaborative development workflows within a 
+professional software engineering environment. The experience strengthened technical skills in testing, 
+automation frameworks, and frontend development while providing valuable understanding of how 
+development, testing, and deployment processes work together in delivering reliable software. 
+Key contributions during the internship included creating and executing test cases for QA stories, 
+performing manual testing against Figma design specifications, writing and maintaining automation 
+scripts, developing frontend features using Angular 18, and migrating automation scripts from 
+Protractor to Playwright to modernize the testing infrastructure. 
