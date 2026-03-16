@@ -1,0 +1,717 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                               Two Months 
+                        Internship / Project 
+                                   Diary 
+ 
+ 
+PG MOZE COLLAGE OF ENGINEERING, WAGHOLI 
+Department of: MCA 
+Academic Year: 2025 - 2026 
+Name of Student: Ankit Kumar 
+Roll No.: MCA103      Seat No.: 1535 
+PG MOZE COLLAGE OF ENGINEERING, WAGHOLI 
+Genba Sopanrao Moze Trust’s 
+Parvatibai Genba Moze College of Engineering 
+Wagholi, Pune – 412207 
+Gat No. 2181, Wagholi, Tal. Haveli, Dist.– Pune Maharashtra– 412207 
+Ph No- 09823440407 
+Email - pgmcoepune.com 
+website- www.pgmcoepune.com 
+PG MOZE COLLAGE OF ENGINEERING, WAGHOLI
+Two-months Internship Diary                                
+General Guidelines for Industry Project and Internship: 
+Parvatibai Genba Moze Collage of Engineering, Wagholi, Pune has introduced one semester 2 
+months internship/ field project with an aim to provide exposure to industrial environment 
+considered necessary to groom students for their profession. Following are some general 
+guidelines, Do’s, and Don’ts to be followed. 
+The objectives of the Industrial Training/ Internship are:  
+1. To provide an opportunity for students to familiarize with the industry of their 
+discipline, experience, work, culture and discover the organizations within the industry. 
+Students will acquire interpersonal skills through meeting with professionals in their 
+field of study. 
+2. To provide an opportunity for students to acquire practical skills and experience 
+working on projects alongside industry experts. 
+3. To provide an opportunity for students to discover grass root problems and fundamental 
+issues in industry with a view to take up major project and development of innovative 
+solutions. 
+Expected Learning Outcomes after the Training/Internship are: 
+• Learn team work and professionalism 
+• Apply SDLC to Project 
+• Apply communication and presentation skills 
+• Recognize the importance of documentation 
+• Ability to work under supervision and directions. 
+• Improved Communication & Interpersonal Skills. 
+• Work Ethics of the company/industry. 
+• Efficiently completing tasks, fostering good relationship with seniors and subordinates. 
+• Exposure to latest technology applications to the specific discipline. 
+• Identification of relevant problems in the industry and innovative solutions. 
+• Assured opportunities in Top Companies 
+Stages in Field Project/ Internship 
+Stage 01: Orientation in the company (15 Days). 
+• During the first months of internship, the intern shall undergo an extensive orientation 
+programme in industry. 
+• The intern should carry out a detailed study of products /services, processes offered by 
+the industry. 
+• Intern should identify the suppliers, customers and competitors of the industry. 
+• Intern should understand the organizational structure, vision, mission policies and top 
+management of the industry. 
+Two-months Internship Diary                                
+Stage 02: Identification of Problem/Case Study & Survey (15 Days). 
+• Intern should identify relevant problem based on issues involving product design and 
+development, automation, process optimization, cost reduction, quality control, 
+material handling, logistics, lay out design, energy audit, waste reduction, pollution 
+control etc. 
+• Intern should carry out comprehensive field/literature survey relevant to the selected 
+topic. 
+• Intern should finalize the methodology along with relevant software tools and prepare 
+preliminary design evaluating alternative solutions. 
+Stage 03: Completion of Project/Case study (01 month). 
+• Intern is expected to arrive at final solution/conclusion for the stated problem. 
+• Intern should prepare a comprehensive report on the work done in the industry in the 
+prescribed format. 
+• Intern is expected to publish/present his contribution at national/international 
+project/paper presentation competitions after obtaining necessary prior permissions. 
+Do's 
+➢ Dress Professionally 
+➢ Be Punctual and Reliable 
+➢ Be Proactive and Take the Initiative. 
+➢ Take on Additional Tasks and Responsibilities as they come up. 
+➢ Do Networking. 
+➢ Be polite and cordial in all your interactions with industry personnel. 
+➢ Report your progress on fortnightly basis to college and industry. 
+Don'ts 
+➢ Don’t Be Afraid to Ask for Help or Clarification 
+➢ Don’t Forget to Follow Up After Your Internship. 
+➢ Take leaves without prior permission of industry/college. 
+➢ Be late. Misuse the facilities offered by the company. 
+➢ Take photographs/videos without permission. 
+➢ Handle equipment in the absence of company supervisor. 
+   Two-months Internship Diary                                
+ 
+One Page Report (To be submitted within 15 days of joining) 
+Name of Student ANKIT KUMAR 
+Class: MCA SEM-02 Roll No.: - MCA103 
+Contact No.: 7385356862 Project Batch No.:  01 
+Student mail ID: zxankit24@gmail.com 
+Company Address: 
+Office number 1005, 10th floor, Gera's Imperium Alpha, 14, 
+Grant Rd, Vitthal Nagar, Kharadi, Pune, Maharashtra 411014, 
+India 
+ 
+Industry Person Name of Person  Contact No. E-mail ID 
+HR Rujuta n/a hr@scalartechhub.com 
+Supervisor: Aditya Pawar n/a n/a 
+Details of Industry: 
+Scalar Techhub is an emerging IT company based in Pune, 
+India. The company focuses on developing modern web and 
+mobile applications that help businesses grow. Its mission is to 
+empower organizations through innovative and reliable 
+technology solutions. Scalar Techhub builds secure, scalable, 
+and user-friendly digital products for startups, small and 
+medium businesses, and large enterprises. 
+ 
+Duration of 
+Internship: 
+From To Total Days 
+Jan Feb 59 
+Actual Working Days Jan 01 Feb 27 42 
+Timing (From – To) 0930hrs 1900hrs 59 days 
+ 
+ 
+ 
+Signature of Student               Name & Signature of Supervisor 
+         Aditya Pawar 
+ 
+   
+ 
+Two-months Internship Diary                                
+Weekly Progress Report 
+Date from January 01 2026 to January 07 2026 
+Targets for this week: 
+The target was to understand the project workflow and contribute to development 
+and testing activities. This included learning the project structure, using the Jira 
+dashboard, creating test cases and sub-tasks, and performing both manual and 
+automation testing. Another objective was to support development tasks in 
+Angular and understand the Agile sprint process. 
+Achievement for the week: 
+During the internship period, I successfully participated in KT sessions, created 
+and managed Jira tickets, and executed test cases for QA stories. I performed 
+manual testing by verifying features against design specifications and also 
+developed automation scripts using Protractor and later Playwright. Additionally, 
+I contributed to development stories using Angular and assisted in migrating 
+automation scripts from Protractor to Playwright. 
+Planning for this week:  
+The plan was to continuously improve understanding of the project while 
+contributing to development and testing tasks. This included writing and 
+executing automation scripts, validating developed features through manual 
+testing, and supporting story development using Angular. Another important plan 
+was to complete the migration of automation scripts to Playwright and ensure 
+proper testing before deployment to staging environments. 
+Name and signature of Industry Supervisor: Aditya Pawar  
+Date: 6 March 2026 
+(To be sent by the students to project coordinator by e-mail every week)
+Two-months Internship Diary                                
+Week: 
+Day:
+                                                D
+ate: 
+Introduction and Project Orientation 
+During the first week of my internship, I was introduced to the project 
+environment and development workflow followed by the team working on the 
+ThermoFisher project. The week primarily focused on understanding the project 
+structure, tools used by the development team, and the Agile-based development 
+methodology followed in the organization. 
+Knowledge Transfer Sessions 
+Several Knowledge Transfer (KT) sessions were conducted by senior developers 
+and QA engineers to help new team members understand the project architecture 
+and workflow. These sessions provided insights into the following areas: 
+• Overall objective and functionality of the ThermoFisher application 
+• Roles and responsibilities of development and QA teams 
+• Sprint-based development process followed by the team 
+• Structure of user stories and tasks in the project 
+• Communication and collaboration process within the team 
+These sessions helped me understand how large enterprise-level applications are 
+developed and maintained in a collaborative environment. 
+Introduction to Agile and Sprint Workflow 
+During the KT sessions, I was introduced to the Agile development methodology 
+used by the team. The project followed a sprint-based approach where each sprint 
+lasted approximately 10 days (around two weeks). 
+Within each sprint, different types of work items were created including: 
+• User stories 
+• QA stories 
+• Development tasks 
+• Sub-tasks 
+Two-months Internship Diary                                
+Week: 
+Day:
+• Bug reports 
+                                                D
+ate: 
+Each task was assigned to specific team members, and progress was tracked 
+through project management tools. 
+Learning Jira Dashboard and Task Tracking 
+A major focus during the first week was learning how the team uses Jira to 
+manage tasks and monitor project progress. 
+I was introduced to the Jira dashboard where all project activities were organized 
+and tracked. Through this dashboard, team members could: 
+• View assigned tasks 
+• Monitor sprint progress 
+• Track story completion status 
+• Identify pending and completed work items 
+• To Do 
+• In Progress 
+• QA Testing 
+• Completed 
+I learned how different ticket types are organized in Jira and how they move 
+through different stages of the workflow such as: 
+Understanding the Jira workflow was important because it served as the central 
+platform for managing all development and testing activities in the project. 
+Understanding Story Types 
+During this week, I also learned about the different types of stories used in the 
+project: 
+1. Development Stories 
+These stories are assigned to developers to implement new features or modify 
+existing functionality within the application. 
+Two-months Internship Diary                                
+Week: 
+Day:
+2. QA Stories 
+                                                D
+ate: 
+These stories are assigned to QA engineers to perform testing activities and 
+ensure that the developed features meet the expected requirements. 
+3. Sub-Tasks 
+Sub-tasks are smaller units of work created under main stories to divide 
+complex tasks into manageable components. 
+Understanding these classifications helped me gain clarity on how work is 
+distributed across the development and testing teams. 
+Understanding Project Documentation 
+Another important aspect covered during the first week was the use of design and 
+requirement documentation in the development process. I was introduced to 
+design files created using Figma, which contain UI layouts and visual 
+specifications for the application. 
+These design documents help developers and testers understand how the final 
+user interface should appear and behave. 
+Key Learning Outcomes 
+By the end of the first week, I had developed a foundational understanding of: 
+• The ThermoFisher project architecture 
+• Agile development methodology 
+• Sprint planning and workflow 
+• Task management using Jira 
+• Collaboration between development and QA teams 
+• Importance of design documentation in software development 
+This week served as an important learning phase where I gained familiarity with 
+the tools, processes, and team structure used in real-world software development 
+projects. 
+Two-months Internship Diary                                
+Week: 
+Day:
+                                                D
+ate: 
+Understanding Task Management and Test Case Creation 
+During the second week of my internship, I started getting familiar with the 
+practical workflow of the project. After completing the initial KT sessions in the 
+first week, I began actively working with the project management tool Jira, 
+which was used by the team to manage tasks, track development progress, and 
+organize sprint activities. 
+Working with Jira Dashboard 
+I learned how to navigate the Jira dashboard and understand different types of 
+tickets created during the sprint. The dashboard displayed multiple work items 
+such as user stories, QA stories, development stories, and bug tickets. Each ticket 
+contained important information such as task description, acceptance criteria, 
+assigned developer or tester, and the sprint in which it was scheduled. 
+During this week, I observed how tasks move through different workflow stages 
+including To Do, In Progress, QA Testing, and Done. This helped me 
+understand how the development and QA teams collaborate to complete sprint 
+tasks efficiently. 
+Creating Test Cases for QA Stories 
+One of my primary responsibilities during this week was learning how to create 
+test cases for QA stories. These test cases were created to verify whether the 
+functionality implemented by developers matched the expected requirements 
+defined in the Jira tickets. 
+While creating test cases, I carefully studied the acceptance criteria mentioned in 
+the QA stories and ensured that the test cases covered all possible scenarios. Each 
+test case included: 
+• Description of the feature to be tested 
+• Steps required to execute the test 
+• Expected result of the functionality 
+• Status of the test case after execution 
+   Two-months Internship Diary                                
+Week: 
+Day:                                                Date: 
+ 
+These test cases were then uploaded and linked to their respective QA stories in 
+Jira. 
+Creating Sub-Tasks for Development Stories 
+Apart from test case creation, I also learned how to create sub-tasks for 
+development stories. Development stories usually represent a larger feature, and 
+sub-tasks help divide the work into smaller manageable components. 
+For each development story, sub-tasks were created based on the specific 
+implementation requirements. These sub-tasks allowed developers to organize 
+their work more efficiently and track progress in smaller increments. 
+Understanding Sprint Workflow 
+Through this process, I also gained a better understanding of the Agile sprint 
+workflow used in the project. Each sprint lasted approximately 10 days, during 
+which developers implemented features and QA engineers tested them. 
+The sprint workflow generally followed this sequence: 
+1. Stories were created and planned during sprint planning. 
+2. Developers worked on implementing the assigned stories. 
+3. Once development was completed, the feature was moved to QA testing. 
+4. QA engineers executed test cases and verified the functionality. 
+5. After successful testing, the story was marked as completed. 
+Learning Outcomes 
+By the end of the second week, I developed practical experience in using Jira for 
+project management. I learned how to create and organize test cases, manage sub
+tasks for development stories, and understand how tasks progress through the 
+Agile sprint workflow. 
+This week helped me build a strong understanding of how project tasks are 
+structured and managed in a real-world software development environment. 
+ 
+Two-months Internship Diary                                
+Week: 
+Day:
+                                                D
+ate: 
+Introduction to Manual Testing Activities 
+During the third week of my internship, I started participating more actively in 
+the quality assurance (QA) process of the ThermoFisher project. The main 
+focus of this week was understanding and performing manual testing for the QA 
+stories assigned during the sprint. 
+Understanding QA Story Requirements 
+Before executing any testing activity, I carefully reviewed the QA stories created 
+in Jira. Each QA story contained detailed information about the functionality that 
+had been developed by the development team. The stories also included 
+acceptance criteria that described the expected behavior of the feature. 
+By studying these requirements, I understood what functionality needed to be 
+verified and what results were expected from the implemented feature. 
+Verifying Features Using Design Specifications 
+For manual testing, the developed features were compared against the UI designs 
+provided in Figma. These design files contained the exact layout, user interface 
+components, and interaction behavior expected in the application. 
+The testing process involved carefully checking whether the implemented UI 
+matched the design specifications. This included verifying: 
+• Layout and positioning of UI elements 
+• Correct display of buttons, forms, and text fields 
+• Proper alignment and styling of components 
+• Navigation between different screens 
+Following Refinement Session Instructions 
+In addition to the design specifications, I also referred to the instructions provided 
+during refinement sessions conducted by the development team. These sessions 
+helped clarify the expected functionality and allowed the team to discuss 
+implementation details before development started. 
+   Two-months Internship Diary                                
+Week: 
+Day:                                                Date: 
+ 
+Using the information from these sessions, I ensured that the application behaved 
+according to the intended functionality. 
+Execution of Manual Test Cases 
+While performing manual testing, I followed predefined test cases created earlier 
+for the QA stories. Each test case contained a series of steps that needed to be 
+executed to verify the functionality. 
+The process involved: 
+1. Opening the developed feature in the application. 
+2. Performing the actions described in the test case. 
+3. Observing the system response. 
+4. Comparing the result with the expected outcome. 
+If the functionality behaved as expected, the test case was marked as passed. If 
+any mismatch or issue was identified, it was documented and reported in Jira. 
+Understanding the Role of QA in Development 
+Through this process, I gained a deeper understanding of the role of QA engineers 
+in maintaining software quality. Manual testing ensures that the developed 
+features function correctly, follow design guidelines, and meet the specified 
+requirements before moving to further stages of deployment. 
+Learning Outcomes 
+By the end of the third week, I developed practical experience in manual testing 
+processes. I improved my ability to analyze feature requirements, verify UI 
+implementation using Figma designs, and execute test cases effectively. 
+This week strengthened my understanding of the testing lifecycle and the 
+importance of validating application functionality before release. 
+ 
+ 
+ 
+Two-months Internship Diary                                
+Week: 
+Day:
+                                                D
+ate: 
+Introduction to Automation Testing 
+During the fourth week of my internship, I was introduced to automation testing 
+for the ThermoFisher project. While manual testing helps verify functionality 
+through human interaction, automation testing allows repetitive test scenarios to 
+be executed automatically using scripts. This helps improve testing efficiency and 
+ensures that application features work consistently across multiple executions. 
+Learning Automation Framework 
+The project initially used Protractor for automation testing of the web 
+application. Protractor is commonly used for testing applications developed using 
+Angular because it provides built-in support for Angular components and 
+asynchronous operations. 
+During this week, I learned how the automation framework was structured and 
+how automated test scripts were organized within the project. 
+Understanding Automation Test Script Structure 
+Automation test scripts followed a structured format which made the tests 
+organized and easy to maintain. The basic structure of the test scripts included: 
+• Locators used to identify UI elements on the web page 
+• Creation of test suites to group related test cases 
+• Writing test scenarios using describe blocks 
+• Implementing individual test cases inside it blocks 
+In the automation scripts, XPath locators were commonly used to identify 
+specific elements on the webpage such as buttons, input fields, and links. 
+Writing and Understanding Test Cases 
+During this week, I reviewed existing automation test scripts to understand how 
+automated tests were written and executed. These scripts simulated user 
+interactions such as clicking buttons, entering data into fields, and navigating 
+between pages. 
+Two-months Internship Diary                                
+Week: 
+Day:
+                                                D
+ate: 
+Each test case verified whether the application behaved as expected after 
+performing certain actions. If the actual output matched the expected result, the 
+test case passed; otherwise, it indicated a potential issue that required 
+investigation. 
+Executing Automation Tests 
+I also learned how automation test cases are executed within the testing 
+environment. Automation scripts were run to verify the functionality of 
+developed features without manually repeating each step. 
+Automation testing helped in validating multiple scenarios quickly and reduced 
+the time required for regression testing when new changes were introduced into 
+the system. 
+Learning Outcomes 
+By the end of the fourth week, I gained a foundational understanding of 
+automation testing concepts and the structure of automated test scripts. I became 
+familiar with how Protractor is used to automate testing for Angular applications 
+and how automated test cases are organized and executed. 
+This week helped me understand how automation testing complements manual 
+testing and improves the overall efficiency of the quality assurance process. 
+Two-months Internship Diary                                
+Week: 
+Day:
+                                                D
+ate: 
+Performing Manual and Automation Testing 
+During the fifth week of my internship, I continued working on testing activities 
+for the ThermoFisher project. My responsibilities included performing both 
+manual testing and automation testing for the QA stories assigned during the 
+sprint. This week allowed me to gain more practical experience in validating 
+application features and ensuring that developed functionalities met the required 
+specifications. 
+Manual Verification of Developed Features 
+For manual testing, I verified the functionalities implemented by the development 
+team. Each feature was tested based on the requirements provided in Jira and the 
+UI design specifications available in Figma. 
+The manual testing process involved checking whether the developed user 
+interface matched the design layout and whether the functionality behaved 
+according to the acceptance criteria mentioned in the Jira stories. I carefully 
+executed the test cases created earlier and validated different scenarios to ensure 
+the application worked correctly. 
+Automation Testing Using Protractor 
+Along with manual testing, I also continued working with Protractor to automate 
+test scenarios. Automation scripts were written to simulate user interactions with 
+the application, such as clicking buttons, entering data, and navigating between 
+different sections of the application. 
+These automated test scripts helped in verifying functionality more efficiently, 
+especially when repetitive testing was required during the sprint cycle. 
+Identifying and Reporting Issues 
+While executing both manual and automated tests, I monitored the application 
+behavior closely. If any unexpected behavior or mismatch with the expected 
+output was observed, the issue was documented and reported through Jira. This 
+allowed the development team to analyze and fix the problem quickly. 
+Learning Outcomes 
+Two-months Internship Diary                                
+Week: 
+Day:
+                                                D
+ate: 
+By the end of the fifth week, I became more confident in executing both manual 
+and automated tests. I gained a better understanding of how QA teams validate 
+software functionality and ensure that features meet the defined requirements 
+before deployment. 
+This week strengthened my testing skills and provided deeper exposure to the 
+practical implementation of testing techniques in a real-world software 
+development project. 
+Two-months Internship Diary                                
+Week: 
+Day:
+                                                D
+ate: 
+Introduction to Development Tasks 
+During the sixth week of my internship, I started working on development 
+stories assigned in the ThermoFisher project. This week marked the beginning of 
+my involvement in the development phase where I implemented features based 
+on the requirements provided in the project tickets. 
+Understanding Development Story Requirements 
+Before starting development, I carefully analyzed the requirements mentioned in 
+Jira tickets. Each development story included detailed documentation such as 
+COA (Conditions of Acceptance) and FDA (Functional Design Approach), 
+which described how the feature should function. 
+In addition to these documents, I also referred to the UI designs available in 
+Figma to understand the visual layout and structure of the feature that needed to 
+be implemented. 
+Feature Development Using Angular 
+Based on the requirements and design specifications, I implemented the assigned 
+features using Angular (Angular 18). The development process involved 
+creating and modifying components, implementing UI elements, and integrating 
+required functionalities. 
+While implementing these features, I ensured that the developed interface 
+matched the design specifications and followed the functional requirements 
+mentioned in the Jira ticket. 
+API Integration and Functional Implementation 
+Some development stories also required interaction with backend services. For 
+these cases, I used the API endpoints provided in the Jira ticket to fetch or 
+send data between the frontend application and backend services. 
+This helped ensure that the application displayed and processed data correctly 
+according to the functional requirements. 
+Code Verification and Initial Testing 
+   Two-months Internship Diary                                
+Week: 
+Day:                                                Date: 
+After completing the implementation of a feature, I performed basic verification 
+to ensure that the functionality was working correctly. This included checking the 
+UI behavior, validating data flow, and confirming that the feature met the 
+acceptance criteria defined in the development story. 
+Learning Outcomes 
+By the end of the sixth week, I gained practical experience in developing frontend 
+features using Angular. I learned how to interpret development requirements from 
+Jira tickets, implement features based on design specifications, and integrate APIs 
+into the application. 
+This week helped me understand how the development phase works in 
+coordination with the testing process within an Agile sprint environment. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   Two-months Internship Diary                                
+Week: 
+Day:                                                Date: 
+ 
+Deployment and QA Verification Process 
+During the seventh week of my internship, I learned about the deployment and 
+verification process followed in the ThermoFisher project. After completing 
+development tasks, the implemented features needed to go through testing and 
+validation before they could be considered ready for release. 
+Deployment to Development Environment 
+Once the assigned development stories were completed using Angular, the 
+updated code was deployed to the development (DEV) environment. This 
+environment is used for internal testing to ensure that newly implemented features 
+function correctly within the application. 
+After deployment, the respective QA assignee was informed so that the testing 
+process could begin. 
+QA Testing and Validation 
+The QA team verified the developed features by executing the relevant test cases 
+associated with the story. These test cases were managed through Jira, which 
+allowed the team to track testing progress and results. 
+During this phase, the QA team checked whether the implemented functionality 
+matched the acceptance criteria and design specifications. If any issues were 
+found, they were reported back through Jira for further correction. 
+Promotion to Staging Environment 
+If the QA testing was completed successfully and the feature met all 
+requirements, the story was marked as verified and moved to the next stage. The 
+application changes were then promoted to the staging environment, which 
+closely resembles the production environment. 
+The staging environment allowed the team to perform additional checks before 
+the feature was finalized for release. 
+Understanding Development Lifecycle 
+Through this process, I gained a better understanding of how different stages of 
+the software development lifecycle (SDLC) work together. Development,  
+Two-months Internship Diary                                
+Week: 
+Day:
+                                                D
+ate: 
+testing, and deployment activities are closely coordinated to ensure that new 
+features are stable and meet quality standards before reaching the final release 
+stage. 
+Learning Outcomes 
+By the end of the seventh week, I understood how the deployment workflow 
+operates within a real-world software project. I learned how features move from 
+development to QA verification and eventually to staging environments after 
+successful testing. 
+This experience helped me understand the importance of collaboration between 
+developers and QA teams in delivering reliable software. 
+Two-months Internship Diary                                
+Week: 
+Day:
+                                                D
+ate: 
+Migration of Automation Testing Scripts 
+During the eighth week of my internship, I was assigned a task related to the 
+migration of automation testing scripts used in the ThermoFisher project. The 
+existing automation framework was initially built using Protractor, but the team 
+decided to migrate the automation scripts to Playwright to improve performance, 
+reliability, and long-term maintainability. 
+Understanding the Need for Migration 
+Protractor was previously widely used for testing Angular applications, but with 
+the advancement of modern testing tools, the team decided to adopt Playwright 
+because it provides faster execution, better browser support, and improved 
+automation capabilities. 
+As part of this migration process, existing automation scripts written in Protractor 
+needed to be converted into Playwright-compatible scripts. 
+Migration Process 
+For every batch, the process involved: 
+The migration was carried out in multiple batches to ensure that the process was 
+organized and manageable. Each batch contained a group of automation test 
+scripts that needed to be updated. 
+• Reviewing the existing Protractor automation scripts 
+• Understanding the test logic and scenarios implemented in those scripts 
+• Rewriting the automation code in Playwright format 
+• Updating locators and test structure where required 
+Updating Test Structure 
+During the migration process, the structure of the automation tests was adjusted 
+to match the Playwright framework. The new scripts maintained the same testing 
+logic but used Playwright’s syntax and functions for executing browser actions 
+and verifying results. 
+   Two-months Internship Diary                                
+Week: 
+Day:                                                Date: 
+ 
+After rewriting the scripts, the updated tests were executed to ensure that they 
+performed the same validations as the original Protractor scripts. 
+Verifying Migrated Scripts 
+After each batch of scripts was migrated, the tests were executed to confirm that 
+the functionality was working correctly. This step ensured that the automation 
+coverage remained consistent even after switching to the new testing framework. 
+Learning Outcomes 
+By the end of the eighth week, I gained practical experience in understanding and 
+migrating automation scripts between different testing frameworks. I also learned 
+how modern testing tools like Playwright improve automation testing efficiency 
+and reliability. 
+This task enhanced my understanding of automation frameworks and provided 
+valuable experience in maintaining and upgrading testing infrastructure in a real
+world software project. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   Two-months Internship Diary                                
+Week: 
+Day:                                                Date: 
+ 
+Final Testing and Review Activities 
+During the final week of my internship, I continued working on testing and 
+automation tasks related to the ThermoFisher project. The primary focus during 
+this period was to review previously completed tasks and ensure that all testing 
+activities and automation scripts were functioning correctly within the project 
+environment. 
+Validation of Automation Scripts 
+I reviewed the automation scripts that were previously migrated from Protractor 
+to Playwright. The migrated scripts were executed to confirm that they were 
+correctly validating application functionality and producing accurate results. 
+This validation process helped ensure that the migration maintained the same test 
+coverage and that no functionality was missed during the transition between 
+automation frameworks. 
+Supporting Testing Activities 
+In addition to automation verification, I also assisted in testing activities by 
+reviewing test cases and validating implemented features. These activities 
+ensured that the developed functionalities matched the design specifications and 
+acceptance criteria defined in Jira. 
+The testing process involved checking whether the features behaved as expected 
+before moving forward in the deployment pipeline. 
+Reflection on Internship Experience 
+During this final week, I also reflected on the overall learning experience gained 
+throughout the internship. Over the course of the internship, I was exposed to 
+multiple aspects of software development including: 
+• Agile sprint workflow 
+• Task management using Jira 
+• Manual testing based on design specifications 
+• Automation testing using Protractor and Playwright 
+   Two-months Internship Diary                                
+Week: 
+Day:                                                Date: 
+ 
+• Frontend development using Angular 
+• Deployment and QA verification processes 
+Learning Outcomes 
+The internship provided valuable real-world experience in working with 
+professional development and testing tools. It helped me understand how 
+development, testing, and deployment processes work together in a collaborative 
+environment. 
+By the end of the internship, I had gained practical exposure to the software 
+development lifecycle and improved my technical skills in testing, automation 
+frameworks, and frontend development. 
+ 
+ 
+ 
